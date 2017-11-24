@@ -141,6 +141,10 @@ if [ $DOWNLOAD ] && [ $DOWNLOAD == 1 ]; then
           PKG_SUFFIX="ubuntu16.04.x86_64.deb"
           PKG_TYPE="deb"
           ;;
+        "ubuntu17"* )
+          PKG_SUFFIX="ubuntu16.04.x86_64.deb"
+          PKG_TYPE="deb"
+          ;;
         "ami"* )
           PKG_VERSION="${AEROSPIKE_C_VERSION//-/_}-1"
           PKG_SUFFIX="el6.x86_64.rpm"
